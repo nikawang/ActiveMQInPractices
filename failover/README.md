@@ -1,3 +1,4 @@
+- Keep the default configuration in file activemq.xml of the ActiveMQ shipped in Fuse 6.0.
 - Start the broker A in 10.66.218.108 and the broker B in 10.66.218.10
 - Run the main application in the per.daniel.activemq.Consumer class
 - Run the main application in the per.daniel.activemq.Publisher class
