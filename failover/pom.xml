@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>per.daniel.activemq</groupId>
+  <artifactId>failover</artifactId>
+  <version>1.0.0</version>
+  
+  <properties>
+    <activemq-version>5.8.0.redhat-60024</activemq-version>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+  	  <groupId>org.apache.activemq</groupId>
+      <artifactId>activemq-all</artifactId>
+      <version>${activemq-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+  </dependencies>
+  
+  <repositories>
+    <repository>
+      <id>java.net</id>
+      <name>java.net</name>
+      <url>http://repository.jboss.org/nexus/content/repositories/fs-releases</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>
