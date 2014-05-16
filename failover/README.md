@@ -1,0 +1,5 @@
+- Start the broker A in 10.66.218.108 and the broker B in 10.66.218.10
+- Run the main application in the per.daniel.activemq.Consumer class
+- Run the main application in the per.daniel.activemq.Publisher class
+- Stop the broker A once the consumer receiving a message from the publisher.
+- We can see both the publisher and consumer failover to the broker B.
